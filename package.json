@@ -1,0 +1,16 @@
+{
+  "name": "backend-labs-30days",
+  "version": "1.0.0",
+  "description": "30-Day Backend Engineering Mastery Labs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node api.js && node src/app.js",
+    "dev": "node api.js && node --watch app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "pg": "^8.12.0"
+  }
+}
